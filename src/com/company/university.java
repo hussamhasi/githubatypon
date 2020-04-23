@@ -12,4 +12,11 @@ public class university {
         this.courseName=courseName;
         this.instructorName=instructor;
     }
+
+    void registration(String studentname){
+        students.add(studentname);
+    }
+    void drop(String studentname){
+        students.remove(studentname);
+    }
 }
